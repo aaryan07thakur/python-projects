@@ -28,7 +28,7 @@ while turns >0:
 
         break
     print()
-    guess= input("guess a character: ")
+    guess= input("guess a character: ").lower()
     guesses +=guess
 
     if guess not in words:
